@@ -13,9 +13,9 @@
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li><a class="active" href="#">Home</a></li>
-                        <li><a href="signup.html">Signup</a></li>
-                        <li><a href="login.html">Login</a></li>
+                        <li><a class="active" href="index.php">Home</a></li>
+                        <li><a href="signup.php">Signup</a></li>
+                        <li><a href="login.php">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,7 +32,7 @@
 
                 <p>Over thousands of besties all over the world <br> Discover your bestie today and let others discover you</p>
 
-                <button> <a href="signup.html">SIGN UP TODAY</a> </button>
+                <button type="submit"><a href="signup.php">Sign Up</a></button>
             </div>
         </div>
 

@@ -13,9 +13,9 @@
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a class="active" href="signup.html">Signup</a></li>
-                        <li><a href="login.html">Login</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a class="active" href="signup.php">Signup</a></li>
+                        <li><a href="login.php">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -31,7 +31,7 @@
                     <h1>Become a <span class="bestie"> BESTIE</span></h1>
                 </div>
 
-                <div class="signup-container">
+                <div class="login-container">
                     <form action="signup.html">
                         <div class="input-div">
                             <h5>Username</h5>
@@ -45,8 +45,15 @@
                             <h5>Password</h5>
                             <input type="password" class="input">
                         </div>
-                        <button type="submit">Signup</button>
-                        <a href="#">Already have an account? <span>Login</span></a>
+
+                        <div class="button">
+                            <button type="submit">Signup</button>
+                        </div>
+
+                        <div class="suggestion">
+                            <a href="login.php">Already have an account? <span class="bestie">Login</span></a>
+                        </div>
+                    
                     </form>
                   
                 </div>

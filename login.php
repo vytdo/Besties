@@ -13,9 +13,9 @@
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="signup.html">Signup</a></li>
-                        <li><a class="active" href="login.html">Login</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="signup.php">Signup</a></li>
+                        <li><a class="active" href="login.php">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -41,9 +41,17 @@
                             <h5>Password</h5>
                             <input type="password" class="input">
                         </div>
-                        <a href="#">Forgot Passowrd?</a>
-                        <button type="submit">Login</button>
-                        <a href="#">Don't have an account? <span>Signup</span></a>
+
+                        <a href="#" class="password">Forgot Passowrd?</a>
+
+                        <div class="button">
+                            <button type="submit">Login</button>
+                        </div>
+                        
+                        <div class="suggestion">
+                            <a href="signup.php" class="account">Don't have an account? <span class="bestie">Signup</span></a>
+                        </div>
+                        
                     </form>
                     
                 </div>
