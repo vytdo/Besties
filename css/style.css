@@ -46,6 +46,16 @@ nav a.active{
 
 }
 
+#hero-img1 {
+    width: 700px;
+    height: 650px;
+    padding-bottom: 7em;
+}
+
+.hero-right1 {
+    padding-left: 8em;
+}
+
 .bestie {
     color: var(--primaryColour);
 }

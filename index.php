@@ -35,6 +35,32 @@
                 <button> <a href="signup.html">SIGN UP TODAY</a> </button>
             </div>
         </div>
+
+        <?php 
+
+            // CONNECTION
+            require_once("settings.php");
+            $conn = @mysqli_connect($host, $user, $pswd, $dbnm) or die ("Failed to connect to server");
+
+            if(!$conn){
+                echo "<p> Connection failure </p>";
+            } else {
+
+                $friendsTable = "CREATE TABLE IF NOT EXISTS friends(
+                    friend_id INT NOT NULL AUTO_INCREMENT,
+                    friend_email VARCHAR(50) NOT NULL,
+                    password VARCHAR(20) NOT NULL,
+                    profile_name VARCHAR(30) NOT NULL,
+                    date_started DATE NOT NULL,
+                    num_of_friends INT unsigned,
+                    PRIMARY KEY(friend_id)
+                )";
+            }
+
+            $createFriendsTable = mysqli_query($conn, $friendsTable);
+
+            mysqli_close($conn);
+        ?>
         
     </body>
 </html>

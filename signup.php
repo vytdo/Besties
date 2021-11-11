@@ -23,10 +23,10 @@
 
         <div class="hero">
             <div class="hero-image">
-                <img src="img/friend.svg" id="hero-img">
+                <img src="img/friend1.svg" id="hero-img1">
             </div>
 
-            <div class="hero-right">
+            <div class="hero-right1">
                 <div class="hero-welcome">
                     <h1>Become a <span class="bestie"> BESTIE</span></h1>
                 </div>
